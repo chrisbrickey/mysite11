@@ -236,7 +236,8 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/stars-in-the-night-sky-monochrome.jpg');
+  background-image: url('https://res.cloudinary.com/dckkkjkuz/image/upload/v1508919440/portfolio/stars-in-the-night-sky-monochrome.jpg');
+  /*background-image: url('../img/stars-in-the-night-sky-monochrome.jpg');*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
