@@ -762,3 +762,14 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #FF9653;
 }
+
+#imageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imageBox > img {
+  height: 350px;
+  width: 180px;
+}
