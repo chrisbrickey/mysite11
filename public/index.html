@@ -168,7 +168,7 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">
-                                      Since 2018, I've been a software engineer at Block, Inc. where I led engineering projects including extraction of reporting functionality to a microservice and adapting the platform to support Square's newly launched bank.
+                                      Since 2018, I've been a software engineer at Block, Inc. where I led engineering projects including extraction from monolith to microservice and adapting the platform to support Square's newly launched bank.
                                       I designed and implemented the services API for a greenfield project, which we launched within 3 months!
                                       I currently work across distributed services supporting the consumer-facing CashApp.
                                     </p>
@@ -198,10 +198,27 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Select Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Click on a project for details and to use my programs.</h3>
+                    <h3 class="section-subheading text-muted">Click on a project for details and to use my web apps.</h3>
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img
+                                src="https://res.cloudinary.com/dckkkjkuz/image/upload/v1658000326/portfolio/flashcard-preview_new_crop3.jpg"
+                                class="img-responsive"
+                                alt="books">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>www.flashcards4u.com</h4>
+                        <p class="text-muted">Java SpringBoot flashcard app</p>
+                    </div>
+                </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -234,23 +251,6 @@
                     <div class="portfolio-caption">
                         <h4>www.findcokezero.com</h4>
                         <p class="text-muted">Django REST Framework API</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img
-                            src="https://res.cloudinary.com/dckkkjkuz/image/upload/c_scale,h_530,w_800/v1508919996/portfolio/bill-brauer-preview.png"
-                            class="img-responsive"
-                            alt="tango-dancers">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>GoTango</h4>
-                        <p class="text-muted">UX design &amp; Product mgmt</p>
                     </div>
                 </div>
             </div>
@@ -318,6 +318,53 @@
 
     <!-- Portfolio Modals -->
 
+    <!-- Portfolio Modal 0 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>flashcards4u</h2>
+                                <p class="item-intro text-muted">Java SpringBoot flashcard app that pulls content from csv source files</p>
+                                <img
+                                        class="img-responsive img-centered" src="https://res.cloudinary.com/dckkkjkuz/image/upload/v1658002531/portfolio/flashcards4u-screenshot_cropped.png"
+                                        alt="real-time editing">
+                                <p>I use flashcards to learn new natural and programming languages, but I hate writing out and carrying around physical flashcards. So I made this app to automate and host flashcards on the web. Future features include filtering by category and source file.
+                                </p>
+                                <p>
+                                    <!-- <strong> -->
+                                    Live link:
+                                    <!-- </strong> -->
+                                    <a href="http://www.flashcards4u.com" target="_blank">www.flashcards4u.com</a>
+                                </p>
+                                <p>
+                                    <!-- <strong> -->
+                                    The source code for this app is available at
+                                    <!-- </strong> -->
+                                    <a href="https://github.com/chrisbrickey/flashcards3" target="_blank">my github repository</a>
+                                </p>
+                                <!-- <ul class="list-inline">
+                                    <li>Date: May 2017 2014</li>
+                                    <li>Client: _______</li>
+                                    <li>Category: Web Apps</li>
+                                </ul> -->
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -333,11 +380,11 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>insta-étoile</h2>
-                                <p class="item-intro text-muted">Rails 5 / React / Redux media-sharing app for performing artists, includes drag/drop upload</p>
+                                <p class="item-intro text-muted">Rails / React / Redux media-sharing app for performing artists, includes drag/drop upload</p>
                                 <img
                                   class="img-responsive img-centered" src="https://res.cloudinary.com/dckkkjkuz/image/upload/v1501280102/view_edit_cxeurx.png"
                                   alt="real-time editing">
-                                <p>Danseur Étoile (literally 'star dancer' in French) is the highest rank within the Paris Opera Ballet. insta-étoile provides a visual platform to enable performing artists of all kinds to instantly share and showcase photos of their craft while building a community of supporters and followers. insta-étoile will further the careers of performing artists by broadcasting their experience in a beautiful and digestible format, linking robust immersive profiles with an artist's community and following.
+                                <p>Danseur Étoile (literally 'star dancer' in French) is the highest rank within the Paris Opera Ballet. insta-étoile is a visual platform for performing artists of all kinds to instantly share and showcase photos of their craft while building a community of supporters and followers. insta-étoile was an exercise for me in mimicking the look, feel, and functionality of Instagram as closely as possible.
                                 </p>
                                 <p>
                                     <!-- <strong> -->
@@ -347,7 +394,7 @@
                                 </p>
                                 <p>
                                     <!-- <strong> -->
-                                      The files for this program are available at
+                                      The source code for this app are available at
                                     <!-- </strong> -->
                                     <a href="https://github.com/chrisbrickey/insta-etoile" target="_blank">my github repository</a>
                                 </p>
@@ -380,13 +427,13 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Find CokeZero API</h2>
-                                <p class="item-intro text-muted">Django REST Framework API for finding local stores that carry your favorite flavors of Coca-cola</p>
+                                <p class="item-intro text-muted">Django REST Framework API for finding stores that carry your favorite flavors of Coca-cola</p>
                                 <img
                                     class="img-responsive img-centered"
                                     src="https://res.cloudinary.com/dckkkjkuz/image/upload/v1510001847/findcokezero/retailers_by_soda_flavors.png"
                                     alt="browsable-API">
                                 <p>
-                                    Cherry CokeZero is my comfort food, but soda inventories vary so - before findcokezero.com - there was not a reliable way to find it. This test-driven, hyper-linked, browsable API allows users to quickly find, add. and update retail locations that carry the different flavors and formulas of Coca-Cola products.  Future development plans include a map-based UI (see github for wireframes).
+                                    Cherry CokeZero was - at one time - my beverage of choice. When Coco-Cola changed the flavor formula of Cherry CokeZero, I panicked! Soda inventories vary from store to store so - before findcokezero.com - I lacked a reliable way to find the original Cherry CokeZero formula. This test-driven, hyper-linked, browsable API allows users to quickly find, add, and update retail locations that carry the different flavors and formulas of Coca-Cola products.  Future development plans include a map-based UI (see github for wireframes).
                                 </p>
                                 <p>
                                     <!-- <strong> -->
@@ -395,7 +442,7 @@
                                     <a href="http://www.findcokezero.com" target="_blank">www.findcokezero.com</a>
                                 </p>
                                 <p>
-                                    The files for this program are available at
+                                    The source code for this app is available at
                                     <a href="https://github.com/chrisbrickey/findcokezero" target="_blank">my github repository</a>
                                 </p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
@@ -406,187 +453,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Firework-Fun</h2>
-                                <p class="item-intro text-muted">Vanilla JavaScript activity with custom trigonometric animations</p>
-                                <img
-                                    class="img-responsive img-centered"
-                                    src="https://res.cloudinary.com/dckkkjkuz/image/upload/v1504117740/fireworks/full-screen-starbursts_qzhfqi.jpg"
-                                    alt="firework display">
-                                <p>This activity is set against a night sky and allows users to design their own fireworks show by choosing the location, color, and relative timing of fireworks. The explosion trajectories of the fireworks are generated by custom trigonometric algorithms.
-                                </p>
-                                <p>
-                                    <!-- <strong> -->
-                                      Live link:
-                                    <!-- </strong> -->
-                                    <a href="http://www.firework-fun.com" target="_blank">www.firework-fun.com</a>
-                                </p>
-                                <p>
-                                    <!-- <strong> -->
-                                      The files for this program are available at
-                                    <!-- </strong> -->
-                                    <a href="https://github.com/chrisbrickey/firework-fun" target="_blank">my github repository</a>
-                                </p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Equity-Portfolio</h2>
-                                <p class="item-intro text-muted">Django stock portfolio app with live update from 3rd party service, includes browsable API</p>
-                                <img
-                                    class="img-responsive img-centered"
-                                    src="https://res.cloudinary.com/dckkkjkuz/image/upload/v1515979484/equity/portfolio-cropped.png"
-                                    alt="portfolio view">
-                                <p>This web app allows non-technical users to search for equities across multiple markets and include them in their portfolio with amount of shares owned.  The portfolio updates so users can view the current value of each investment.  This app utilizes Django for both front and back end as well as Django Rest Framework to provide a browsable API for technical users.
-                                </p>
-                                <p>
-                                    <!-- <strong> -->
-                                      Live link:
-                                    <!-- </strong> -->
-                                    <a href="http://www.equity-portfolio.com" target="_blank">www.equity-portfolio.com</a>
-                                </p>
-                                <p>
-                                    <!-- <strong> -->
-                                      The files for this program are available at
-                                    <!-- </strong> -->
-                                    <a href="https://github.com/chrisbrickey/equity-portfolio" target="_blank">my github repository</a>
-                                </p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Space-Races</h2>
-                                <p class="item-intro text-muted">Mobile-first, Python-based puzzle-solving and choose-your-own adventure game</p>
-                                <p>Wireframe Samples</p>
-                                <div id="imageBox">
-                                  <img
-                                      class="img-responsive img-centered"
-                                      src="https://res.cloudinary.com/dckkkjkuz/image/upload/c_scale,w_400/v1509154912/space-races/SelectPuzzle.png"
-                                      alt="wireframe-sample1">
-                                  <img
-                                      class="img-responsive img-centered"
-                                      src="https://res.cloudinary.com/dckkkjkuz/image/upload/c_scale,w_400/v1509161143/space-races/UnlockPlanet1.png"
-                                      alt="wireframe-sample2">
-                                  <img
-                                      class="img-responsive img-centered"
-                                      src="https://res.cloudinary.com/dckkkjkuz/image/upload/c_scale,w_400/v1509154921/space-races/UnlockPlanet3.png"
-                                      alt="wireframe-sample3">
-                                </div>
-                                <p>I'm obsessed with space travel and revelled in creating this game about it. The game logic is complete in python so players can load the game from the command line and are prompted through a story. The player must solve logic puzzles and succeed at games of chance to avoid a premature GAME OVER. I am currently building the mobile-first frontend of the web app.
-                                </p>
-                                <p>
-                                    <!-- <strong> -->
-                                      Live link:
-                                    <!-- </strong> -->
-                                    <a href="http://www.space-races.com" target="_blank">www.space-races.com</a>
-                                </p>
-                                <p>
-                                      To play from the command line, download the program here:
-                                    <a href="https://github.com/chrisbrickey/space-races" target="_blank">my github repository</a>
-                                </p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>GoTango</h2>
-                                <p class="item-intro text-muted">UX design and product management for a tango instruction app</p>
-                                <img
-                                    class="img-responsive img-centered"
-                                    src="https://res.cloudinary.com/dckkkjkuz/image/upload/v1508923490/portfolio/11_Listen_with_links.png"
-                                    alt="tango-dancers">
-                                <p>I worked as both product manager and UX designer on this project. Learning tango is an ambitious undertaking, as I discovered when I travelled to Buenos Aires for that purpose. Dancing tango requires lots of practice, but the most common forms of practice - milongas and group classes - are often inconvenient and intimidating. GoTango uses mobile technology to make tango practice more easily a part of one's lifestyle - more spontaneous.
-                                </p>
-                                <p>
-                                    <!-- <strong> -->
-                                      The files for this project are available at
-                                    <!-- </strong> -->
-                                    <a href="https://github.com/chrisbrickey/gotango" target="_blank">my github repository</a>
-                                </p>
-                                <ul class="list-inline">
-                                    <li>Image is a cropped painting by
-                                    <a href="http://billbrauer.com/" target="_blank">Bill Brauer</a>.
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
