@@ -1,16 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    rack (2.2.3)
+    rack (3.1.8)
 
 PLATFORMS
+  arm64-darwin-23
   ruby
 
 DEPENDENCIES
   rack
 
 RUBY VERSION
-   ruby 2.6.8p205
+   ruby 3.3.6p108
 
 BUNDLED WITH
-   1.17.2
+   2.5.23
