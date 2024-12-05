@@ -10,4 +10,5 @@ Commit changes to package-lock.json.
 * npm 8.3
 
 ## Development
-To run locally: `open public/index.html`
+To run static assets locally: `open public/index.html`
+To run webserver locally: `rackup` 
