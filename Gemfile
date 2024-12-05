@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
+ruby '3.3.6'
 gem 'rack'
-ruby "3.3.6"
+gem 'rackup'
+
